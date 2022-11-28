@@ -1,8 +1,8 @@
 import md5 from "./md5.min.js";
 
 // 百度翻译对应的 appid 以及密钥
-const appid = "";
-const key = "";
+const appid = "20221117001457355";
+const key = "9aJC9yzn7bJHn49sIIM3";
 
 export default function translateFunc(
   q,
@@ -14,7 +14,7 @@ export default function translateFunc(
   return new Promise((resolve, reject) => {
     fetch(
       "https://fanyi-api.baidu.com/api/trans/vip/translate?" +
-        `q=${q}&from=${from}&to=${to}&appid=${appid}&salt=${salt}&sign=${sign}`,
+      `q=${q}&from=${from}&to=${to}&appid=${appid}&salt=${salt}&sign=${sign}`,
       {
         method: "GET",
         headers: {
