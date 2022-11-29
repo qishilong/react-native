@@ -1,8 +1,8 @@
 import md5 from './md5.min.js';
 
 // 百度翻译对应的 appid 以及密钥
-const appid = '20221117001457355';
-const key = '9aJC9yzn7bJHn49sIIM3';
+const appid = '保密 --> 改成自己的即可';
+const key = '保密 --> 改成自己的即可';
 
 export default function translateFunc(
 	q,
